@@ -1,0 +1,635 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-color: #1D1D1D;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100;
+    padding: 0 15px;
+    margin: 0 auto; 
+    height: 765px;
+}
+
+
+#inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/fondohola.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: right;
+}
+
+h1{
+    color: #8980FE;
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: -40px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.izq{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+
+#saludo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+
+#saludo h1{
+    margin: 5px 0;
+}
+
+#fotocv{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 0;
+    padding: 120px;
+}
+
+#fotocv img{
+    border-radius: 5%;
+}
+
+#sobremi{
+    background-image:url(img/Fondosobremi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#272727 ;
+}
+
+h3{
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.der h3{
+    margin-left: 95px;
+    padding: 200px 0;
+}
+
+.izq p{
+    font-size: 24px;
+    font-weight: 300;
+    padding: 215px 0;
+}
+
+.sobre{
+    margin-left: 125px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#habilidades{
+    background-image:url(img/FondoHabilidades.jpg);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#detalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#idio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+}
+
+.servi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+
+}
+
+.subtitulo {
+    display: flex;
+    padding-left: 30px;
+}
+
+#barras {
+    padding: 30px;
+}
+
+.listita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.listita ul li{
+    font-size: 24px;
+    font-weight: 300;
+    height: auto;
+    margin: 10px;
+}
+
+.listita ul{
+    list-style-image: url(img/Punto-01.svg);
+}
+
+#portfolio{
+    background-color:#272727;
+    background-image: url(img/FondoPortfolio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contenedorport{
+    width: 100vw;
+    margin: 0 auto; 
+}
+.subport{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.subport p {
+    align-items: center;
+}
+
+.galeria{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.galeria ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.galeria li a {
+    width: 260px;
+    height: 325px;
+    display: block;    
+}
+
+.galeria li a span{
+    opacity: 0;
+}
+
+.port1{
+    background-image: url(img/port1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.port2{
+    background-image: url(img/port2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.port3{
+    background-image: url(img/port3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.port4{
+    background-image: url(img/port4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.video iframe{
+    justify-content: center;
+}
+
+#contacto{
+    background-image: url(img/FondoHabilidades.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contactame p{
+    text-align: center;
+    font-size: 25px;
+    font-weight:800;
+    color: #8980fe;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+
+.lista1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 71px;
+    margin-right: 71px;
+    list-style: none;
+}
+
+
+.lista1 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li a img {
+    justify-content: center;
+    width: 8vw;
+    height: auto;
+}
+
+li a p {
+    font-style:normal;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+#copy{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+#copy p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Medias*/
+
+@media (max-width: 600px) {
+    .contenedor {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    #inicio{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-image: none;
+        height: 600px;
+    }
+
+    .contenido{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #saludo {
+        justify-content: center;
+        margin-top: 0%;
+    }
+
+    #saludo h1 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    #fotocv {
+        padding: 10vw;
+        justify-content: center;
+    }
+
+    #fotocv img {
+        height: 300px;
+        width: auto;
+        align-items: center;
+        margin-top: 2vw;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #sobremi {
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+        background-color: #272727;
+        height: auto;
+        width: auto;
+    }
+
+    .der{
+        align-items: center;
+        width: 100%;
+    }
+
+    .der h3 {
+        margin-left: 0;
+        margin-top: 0px;
+        padding: 0%;
+        justify-content: center;
+    }
+
+    .izq {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .izq p {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .sobre {
+        display: flex;
+        margin-left: 0%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .sobre p {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0%;
+        width: 40vw;
+        height: auto;
+        justify-content: center;
+    }
+
+    #copy {
+        height: auto;
+    }
+
+    .habilidades {
+        width: 100%;
+        height: auto;
+    }
+
+    #detalle {
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    #detalle img {
+        margin: 10px 0;
+    }
+
+    #idio {
+        align-items: center;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    #barras img {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .servi {
+        margin-left: 0%;
+        margin-top: 30px;
+        justify-content: center;
+        padding: 0%;
+        margin-left: 0%;
+    }
+
+    .subtitulo {
+        justify-content: center;
+    }
+
+    .listita ul {
+        padding-left: 0%;
+    }
+    .listita ul li {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #portfolio {
+        background-image: none;
+    }
+
+    .galeria ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria ul li a {
+        margin: 10px 0;
+    }
+
+    .videis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subport p {
+        align-content: center;
+    }
+    .video iframe {
+        margin: 0 20px;
+        width: 300px;
+        height: auto;
+        align-content: center;
+    }
+
+    #contacto {
+        background-image: none;
+    }
+
+    .datos {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .lista1 ul {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    ul li a img {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+        width: 80px;
+        height: auto;
+    }
+
+    .lista2 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 900px) {
+    #inicio {
+        background-size: cover;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    #saludo {
+        padding-left: 0px;
+        margin-top: 10vw;
+        margin-left: 10vw;
+    }
+
+    .sobremi {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #fotocv {
+        justify-content: left;
+        padding: 20px;
+    }
+
+    #fotocv img{
+        width: 40vw;
+        height: auto;
+    }
+
+    .sobre {
+        margin-left: 0px;
+        width: 40vw;
+    }
+
+    .der h3{
+        padding: 20px;
+        padding-top: 35vw;
+        justify-content: center;
+    }
+    
+    .servi {
+        margin-left: 80px;
+    }
+
+    .listita ul li {
+        font-size: 20;
+        margin: 20px;
+        height: auto;
+    }
+
+        #barras img {
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .galeria{
+        flex-wrap: wrap;
+    }
+
+    .lista1 ul{
+        justify-content: space-evenly;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    #inicio {
+        background-size: cover;
+    }
+
+    #fotocv img{
+        padding:px;
+    }
+
+    #sobremi {
+        background-size: cover;
+    }
+
+    #fotocv {
+        justify-content: left;
+        padding: 20px;
+    }
+
+    #fotocv img{
+        width: 40vw;
+        height: auto;
+    }
+
+    .sobre {
+        margin-left: 0px;
+        width: 40vw;
+    }
+
+}
+
